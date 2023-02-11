@@ -1,0 +1,44 @@
+body
+{
+  color: white;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+label{
+  font-size: 14px;
+  color: bisque;
+  padding: 6px;
+  border-radius: 10px;
+  background-color:black ;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 10px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_gesture ,#result_gesture_2  
+{
+  color: black;
+}
+.gesture_name
+{
+  font-size: 40px;
+}
+.gesture
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
